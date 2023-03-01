@@ -1,0 +1,25 @@
+/* IMG PARA TRABAJOS */
+
+.imgTrabajo {
+    &:hover {
+        filter: contrast(120%);
+        font-weight: 600;
+        transition: 0.4s;
+    }
+}
+
+.imgTrabajo2 {
+    &:hover {
+        filter: brightness(150%);
+        font-weight: 600;
+        transition: 0.4s;
+    }
+}
+
+.imgTrabajo3 {
+    &:hover {
+        filter: brightness(120%);
+        font-weight: 600;
+        transition: 0.4s;
+    }
+}

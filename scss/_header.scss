@@ -1,0 +1,29 @@
+/* menu Bootstrap */
+h1 {
+    font-size: 700%;
+    text-align: center;
+    color: $color_1;
+    font-weight: 500;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: $color_2;
+}
+
+.nav-link {
+    &:hover {
+        transform: translate(0%, -5%);
+        transition: 0.2s;
+    }
+}
+
+.navbar-brand {
+    &:hover {
+        transform: translate(0%, -5%);
+        transition: 0.2s;
+        color: $color_1;
+    }
+}

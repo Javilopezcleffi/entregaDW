@@ -1,0 +1,16 @@
+@mixin parrafos {
+    color: $color_2;
+    text-align: center;
+
+}
+
+h3 {
+    @include parrafos;
+    font-size: 18px;
+
+}
+
+h4 {
+    @include parrafos;
+    font-size: 11px;
+}

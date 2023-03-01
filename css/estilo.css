@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Bree Serif', serif; }
+
+/* menu Bootstrap */
+h1 {
+  font-size: 700%;
+  text-align: center;
+  color: #f817dd;
+  font-weight: 500; }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: gray; }
+
+.nav-link:hover {
+  transform: translate(0%, -5%);
+  transition: 0.2s; }
+
+.navbar-brand:hover {
+  transform: translate(0%, -5%);
+  transition: 0.2s;
+  color: #f817dd; }
+
+.arena {
+  padding: 9%;
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-onda-arena-zen-concepto-atencion-plena_53876-129436.jpg?w=2000); }
+
+/* NOSOTRAS */
+.present {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+
+.ficha {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+
+.linksAig {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-bottom: 1%; }
+
+.linksAigConTexto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 1%; }
+
+.ficha p {
+  padding: 2%; }
+
+@media (max-width: 1200px) {
+  .linksAig {
+    display: none; } }
+@media (min-width: 1200px) {
+  .linksAigConTexto {
+    display: none; } }
+/* IMG PARA TRABAJOS */
+.imgTrabajo:hover {
+  filter: contrast(120%);
+  font-weight: 600;
+  transition: 0.4s; }
+
+.imgTrabajo2:hover {
+  filter: brightness(150%);
+  font-weight: 600;
+  transition: 0.4s; }
+
+.imgTrabajo3:hover {
+  filter: brightness(120%);
+  font-weight: 600;
+  transition: 0.4s; }
+
+h3 {
+  color: gray;
+  text-align: center;
+  font-size: 18px; }
+
+h4 {
+  color: gray;
+  text-align: center;
+  font-size: 11px; }
+
+/* MAPA EN CONTACTO */
+.mapa {
+  display: block;
+  margin: auto; }
+
+footer {
+  margin-top: 2%;
+  border-top: solid #f817dd 2px;
+  text-align: center; }
+  footer ul li {
+    text-transform: lowercase;
+    list-style-type: none; }
+  footer a {
+    color: gray;
+    text-decoration: none;
+    font-size: 13px; }
+    footer a:hover {
+      color: #f817dd; }
+  footer h3 {
+    font-size: 11px;
+    color: gray; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none; }
+
+.btn .btn-primary {
+  background-color: #f817dd; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%; }
+
+/*# sourceMappingURL=estilo.css.map */

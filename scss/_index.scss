@@ -1,0 +1,17 @@
+
+.portada {
+
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+
+// mobile
+
+@media (max-width: 1200px) {
+    .estrella {
+        display: none;
+    }
+}
+
