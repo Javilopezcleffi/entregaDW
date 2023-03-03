@@ -10,7 +10,7 @@ body {
 h1 {
   font-size: 700%;
   text-align: center;
-  color: #f817dd;
+  color: #ff8ce4;
   font-weight: 500; }
 
 .menu {
@@ -26,7 +26,7 @@ h1 {
 .navbar-brand:hover {
   transform: translate(0%, -5%);
   transition: 0.2s;
-  color: #f817dd; }
+  color: #ff8ce4; }
 
 .arena {
   padding: 9%;
@@ -101,7 +101,7 @@ h4 {
 
 footer {
   margin-top: 2%;
-  border-top: solid #f817dd 2px;
+  border-top: solid #ff8ce4 2px;
   text-align: center; }
   footer ul li {
     text-transform: lowercase;
@@ -111,7 +111,7 @@ footer {
     text-decoration: none;
     font-size: 13px; }
     footer a:hover {
-      color: #f817dd; }
+      color: #ff8ce4; } 
   footer h3 {
     font-size: 11px;
     color: gray; }
@@ -124,7 +124,7 @@ footer {
   text-decoration: none; }
 
 .btn .btn-primary {
-  background-color: #f817dd; }
+  background-color: #ff8ce4; }
 
 .fa {
   padding: 20px;
